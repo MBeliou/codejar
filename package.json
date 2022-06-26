@@ -18,7 +18,7 @@
     "build": "tsc",
     "size": "minify codejar.js --sourceType module | gzip-size",
     "release": "release-it",
-    "postinstall": "tsc
+    "postinstall": "tsc"
   },
   "devDependencies": {
     "babel-minify": "^0.5.1",
